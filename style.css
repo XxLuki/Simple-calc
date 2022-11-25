@@ -1,0 +1,87 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 50%, rgba(244,252,69,0.8329466357308585) 100%);
+}
+.wrapper {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background-color: rgba(224, 224, 224, 0.5);
+
+    border-radius: 25px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    flex-basis: 400px;
+    padding: 20px 35px;
+    height: 540px;
+    width: 500px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.screen {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 4px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 2px 30px 0 rgba(31, 38, 135, 0.1);
+    padding: 15px;
+    color: black;
+    overflow: auto;
+    text-align: right;
+    width: 470px;
+    font-size: 40px;
+}
+.calc-button-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 470px;
+}
+.calc-button {
+    backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 4px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 2px 30px 0 rgba(31, 38, 135, 0.1);
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 34px;
+    height: 65px;
+}
+.calc-button:last-child {
+    backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 4px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 2px 30px 0 rgba(31, 38, 135, 0.1);
+    flex-basis: 15%;
+    font-family: inherit;
+    font-size: 34px;
+    height: 65px;
+    background: #7ec9cb;
+    color: white;
+}
+.calc-button:last-child:hover {
+    background-color: inherit;
+    color: inherit;
+}
+.calc-button:hover {
+    background-color: inherit;
+}
+.calc-button:last-child:active {
+    background-color: #e0d9b4;
+}
+.calc-button:active {
+    background-color: #e0d9b4;
+}
+.calc-button-width-2 {
+    flex-basis: 77%;
+}
+.double {
+    flex-basis: 48%;
+}
